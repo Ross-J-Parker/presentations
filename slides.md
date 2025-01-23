@@ -1,20 +1,57 @@
-# Slide 1: Introduction
+# Introduction to Python
 
-This is the content of the first slide. You can use **bold**, *italics*, and other Markdown formatting.
-
-*   List item 1
-*   List item 2
+A versatile and powerful programming language.
 
 ---
 
-# Slide 2: Another topic
+## What is Python?
 
-Here's some more content for the second slide.
+*   High-level, general-purpose programming language.
+*   Emphasizes code readability (uses significant indentation).
+*   Supports multiple programming paradigms (procedural, object-oriented, functional).
+*   Large standard library and extensive ecosystem of third-party packages.
 
-![An image](image.jpg)  ---
+---
 
-## Slide 3: A sub-section
+## Why Learn Python?
 
-You can use different heading levels for sub-sections within a slide.
+*   Beginner-friendly: Simple syntax and easy to learn.
+*   Versatile: Used in web development, data science, machine learning, scripting, automation, and more.
+*   Large and active community: Plenty of resources and support available.
+*   High demand in the job market.
 
-> This is a quote.
+---
+
+## Basic Syntax
+
+### Variables and Data Types
+
+*   Variables are dynamically typed (you don't need to declare their type).
+
+    ```python
+    name = "Alice"  # String
+    age = 30        # Integer
+    height = 5.8    # Float
+    is_student = False  # Boolean
+    ```
+
+---
+
+### Operators
+
+*   Arithmetic operators: `+`, `-`, `*`, `/`, `//` (floor division), `%` (modulo), `**` (exponentiation).
+*   Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`.
+*   Logical operators: `and`, `or`, `not`.
+
+---
+
+### Control Flow
+
+#### If statements
+
+```python
+age = 20
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
