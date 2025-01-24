@@ -47,7 +47,12 @@ A versatile and powerful programming language.
 
 ### Control Flow
 
+This is the main content of the Control Flow slide. We will explore different control flow structures in Python.
+
+<section data-markdown>
 #### If statements
+
+The `if` statement allows you to execute code conditionally.
 
 ```python
 age = 20
